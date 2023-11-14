@@ -15,6 +15,7 @@
 ### Описание
 Программа предназначена для того, чтобы выделять реплики кавычками в скриптах (файлы .rpy) движка для визуальных новелл *Ren'Py*. 
 Программа поддерживает русский и английский языки.
+Выделяет **ТОЛЬКО** реплики. Для выделения названий изображений или иных элементов скрипта, требующих выделения кавычками, программа не предназначена.
 
 **RPEQ** — рекомендую скачивать эту версию программы, так как её удобнее использовать за счёт дизайна. А также дальнейшие обновления будут касаться только этой версии.
 
@@ -46,6 +47,7 @@ ____
 ## EN
 ### Description
 The program is designed to highlight replicas with quotation marks in scripts (.rpy files) of the engine for visual novels *Ren'Py*. The program supports Russian and English languages.
+Выделяет **ТОЛЬКО** реплики. Для выделения названий изображений или иных элементов скрипта, требующих выделения кавычками, программа не предназначена.
 
 **RPEQ** — I recommend downloading this version of the program, as it is more convenient to use due to the design. And also further updates will only apply to this version.
 
