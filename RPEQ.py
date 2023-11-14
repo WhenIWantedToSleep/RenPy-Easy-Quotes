@@ -258,7 +258,7 @@ def contacts(): # FEEDBACK & CONTACTS
         link6.pack()
         link6.configure(placeholder_text=".cofta (677557278555111454)", state="readonly")
 
-    visitka_window.mainloop()
+    contacts_window.mainloop()
 
 def callback(url): # WEB
    webbrowser.open_new_tab(url)
