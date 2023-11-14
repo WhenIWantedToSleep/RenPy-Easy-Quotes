@@ -19,7 +19,7 @@
 ### Использование
 1. Скачайте нужную версию программы (RPEQ или RPEQ-lite);
 2. Распакуйте архив;
-3. Программа (*RPEQ.exe* и если это не lite версия, то и папка *_internal*) должны находиться в одной папке с файлом, в котором необходимо выделить реплики кавычками;
+3. Программа (*RPEQ.exe* и если это не lite версия, то и папка *_internal* с файлом *harlequin.json*) должны находиться в одной папке с файлом, в котором необходимо выделить реплики кавычками;
 4. Запустите RPEQ.exe (или RPEQ-lite.exe);
 5. В первом поле необходимо написать название файла (без разрешения);
 6. Во втором поле можно указать переменные персонажей, которые указываются при создании персонажа в скрипте Ren'Py (define ***e*** = Character("Eileen", color="#FFFFFF")). Если переменные персонажей в репликах не фигурируют, то можно оставить это поле пустым;
@@ -45,7 +45,7 @@ The program is designed to highlight replicas with quotation marks in scripts (.
 ### Usage
 1. Download the version of the program you need (RPEQ or RPEQ-lite);
 2. Unzip the archive;
-3. Program (*RPEQ.exe * and the folder *_internal*) should be in the same folder with the file in which you need to highlight replicas with quotation marks;
+3. Program (*RPEQ.exe* and the folder *_internal* with file *harlequin.json*) should be in the same folder with the file in which you need to highlight replicas with quotation marks;
 4. Run RPEQ.exe (or RPEQ-lite.exe);
 5. In the first field, you must write the name of the file (without permission);
 6. You can write character variables in the second field that are defining when creating a character in the Ren'Py script (define ***e*** = Character("Eileen", color="#FFFFFF")). If the character variables do not appear in the replicas, then you can leave this field empty;
