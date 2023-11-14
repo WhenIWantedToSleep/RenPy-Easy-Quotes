@@ -47,7 +47,7 @@ ____
 ## EN
 ### Description
 The program is designed to highlight replicas with quotation marks in scripts (.rpy files) of the engine for visual novels *Ren'Py*. The program supports Russian and English languages.
-Выделяет **ТОЛЬКО** реплики. Для выделения названий изображений или иных элементов скрипта, требующих выделения кавычками, программа не предназначена.
+Highlights **ONLY** replicas. The program is not intended to highlight the names of images or other script elements that require quotation marks.
 
 **RPEQ** — I recommend downloading this version of the program, as it is more convenient to use due to the design. And also further updates will only apply to this version.
 
