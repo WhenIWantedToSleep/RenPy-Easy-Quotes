@@ -20,6 +20,10 @@
 
 **RPEQ-lite** — консольная версия программы. Преимущества: меньший вес, программа упакована одним .exe файлом.
 
+### Установка
+1. Скачать .zip архив
+2. Распаковать
+
 ### Использование
 1. Скачайте нужную версию программы (RPEQ или RPEQ-lite);
 2. Распакуйте архив;
@@ -46,6 +50,10 @@ The program is designed to highlight replicas with quotation marks in scripts (.
 **RPEQ** — I recommend downloading this version of the program, as it is more convenient to use due to the design. And also further updates will only apply to this version.
 
 **RPEQ-lite** — console version of the program. Advantages: less weight, the program is packed with one file (.exe).
+
+### Installation
+1. Download .zip archive
+2. Unpack
 
 ### Usage
 1. Download the version of the program you need (RPEQ or RPEQ-lite);
