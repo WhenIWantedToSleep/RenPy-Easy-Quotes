@@ -15,7 +15,7 @@ main_x = (screen_width/2) - (rpeq_width/2)
 main_y = (screen_height/2) - (rpeq_height/2)
 root.geometry(f"{rpeq_width}x{rpeq_height}+{int(main_x)}+{int(main_y)}")
 root.title("Ren'Py Easy Quotes by wiwts")
-root.after(201, lambda: root.iconbitmap("C:\\Programs\\Ren'Py_Easy_Quotes_3\\favicon.ico"))
+root.after(201, lambda: root.iconbitmap("favicon.ico"))
 root.resizable(False, False)
 
 # DEFINE
@@ -161,54 +161,54 @@ def users_path(): # OPTIONAL
     elif is_custom_path.get() == "true":
         path_input.configure(state="normal", placeholder_text="C:\\Program Files\\renpy projects\\my novell", fg_color="#a9b8c4")
 
-def visitka(): # FEEDBACK & CONTACTS
+def contacts(): # FEEDBACK & CONTACTS
 
-    visitka_window = ctk.CTkToplevel()
-    visitka_window.attributes('-topmost', 'true')
-    visitka_window.grab_set()
-    visitka_width = 300
-    visitka_height = 300
-    visitka_x = (screen_width/2) - (visitka_width/2)
-    visitka_y = (screen_height/2) - (visitka_height/2)
-    visitka_window.geometry(f"{visitka_width}x{visitka_height}+{int(visitka_x)}+{int(visitka_y)}")
-    visitka_window.title("Обратная связь")
-    visitka_window.after(250, lambda: root.iconbitmap("C:\\Programs\\Ren'Py_Easy_Quotes_3\\favicon.ico"))
-    visitka_window.resizable(False, False)
-    viz_frame = ctk.CTkFrame(visitka_window)
-    viz_frame.pack(padx=30, pady=20, fill="both", expand=True)
+    contacts_window = ctk.CTkToplevel()
+    contacts_window.attributes('-topmost', 'true')
+    contacts_window.grab_set()
+    contacts_width = 300
+    contacts_height = 300
+    contacts_x = (screen_width/2) - (contacts_width/2)
+    contacts_y = (screen_height/2) - (contacts_height/2)
+    contacts_window.geometry(f"{contacts_width}x{contacts_height}+{int(contacts_x)}+{int(contacts_y)}")
+    contacts_window.title("Обратная связь")
+    contacts_window.after(250, lambda: root.iconbitmap("favicon.ico"))
+    contacts_window.resizable(False, False)
+    contacts_frame = ctk.CTkFrame(contacts_window)
+    contacts_frame.pack(padx=30, pady=20, fill="both", expand=True)
 
     if language_choice.get() == "English":
-        link1 = ctk.CTkLabel(viz_frame,
+        link1 = ctk.CTkLabel(contacts_frame,
                              text="My VK group",
                              text_color="#ffa3f0",
                              cursor="hand2")
         link1.pack(padx=20, pady=10)
         link1.bind("<Button-1>", lambda e: callback("https://vk.com/ovanfor"))
 
-        link2 = ctk.CTkLabel(viz_frame,
+        link2 = ctk.CTkLabel(contacts_frame,
                              text="My VK page",
                              text_color="#ffa3f0",
                              cursor="hand2")
         link2.pack(padx=20, pady=10)
         link2.bind("<Button-1>", lambda e: callback("https://vk.com/da_wiwts"))
 
-        link3 = ctk.CTkLabel(viz_frame,
+        link3 = ctk.CTkLabel(contacts_frame,
                              text="My Telegram",
                              text_color="#ffa3f0",
                              cursor="hand2")
         link3.pack(padx=20, pady=10)
         link3.bind("<Button-1>", lambda e: callback("https://t.me/ruslanwiwts"))
 
-        link4 = ctk.CTkLabel(viz_frame,
+        link4 = ctk.CTkLabel(contacts_frame,
                              text="My YouTube channel",
                              text_color="#ffa3f0",
                              cursor="hand2")
         link4.pack(padx=20, pady=10)
         link4.bind("<Button-1>", lambda e: callback("https://www.youtube.com/channel/UCX99TT0Qb0ca6sRglmcNkxw"))
 
-        link5 = ctk.CTkLabel(viz_frame, text="My Discord:")
+        link5 = ctk.CTkLabel(contacts_frame, text="My Discord:")
         link5.pack()
-        link6 = ctk.CTkEntry(viz_frame,
+        link6 = ctk.CTkEntry(contacts_frame,
                              placeholder_text=".cofta (677557278555111454)",
                              fg_color="#020202",
                              placeholder_text_color="#FFFFFF",
@@ -219,37 +219,37 @@ def visitka(): # FEEDBACK & CONTACTS
 
     elif language_choice.get() == "Russian":
 
-        link1 = ctk.CTkLabel(viz_frame,
+        link1 = ctk.CTkLabel(contacts_frame,
                              text="Мой паблик ВК",
                              text_color="#ffa3f0",
                              cursor="hand2")
         link1.pack(padx=20, pady=10)
         link1.bind("<Button-1>", lambda e: callback("https://vk.com/ovanfor"))
 
-        link2 = ctk.CTkLabel(viz_frame,
+        link2 = ctk.CTkLabel(contacts_frame,
                              text="Моя страница ВК",
                              text_color="#ffa3f0",
                              cursor="hand2")
         link2.pack(padx=20, pady=10)
         link2.bind("<Button-1>", lambda e: callback("https://vk.com/da_wiwts"))
 
-        link3 = ctk.CTkLabel(viz_frame,
+        link3 = ctk.CTkLabel(contacts_frame,
                              text="Мой ТГ",
                              text_color="#ffa3f0",
                              cursor="hand2")
         link3.pack(padx=20, pady=10)
         link3.bind("<Button-1>", lambda e: callback("https://t.me/ruslanwiwts"))
 
-        link4 = ctk.CTkLabel(viz_frame,
+        link4 = ctk.CTkLabel(contacts_frame,
                              text="Мой канал на YouTube",
                              text_color="#ffa3f0",
                              cursor="hand2")
         link4.pack(padx=20, pady=10)
         link4.bind("<Button-1>", lambda e: callback("https://www.youtube.com/channel/UCX99TT0Qb0ca6sRglmcNkxw"))
 
-        link5 = ctk.CTkLabel(viz_frame, text="Мой аккаунт Discord:")
+        link5 = ctk.CTkLabel(contacts_frame, text="Мой аккаунт Discord:")
         link5.pack()
-        link6 = ctk.CTkEntry(viz_frame,
+        link6 = ctk.CTkEntry(contacts_frame,
                              placeholder_text=".cofta (677557278555111454)",
                              fg_color="#020202",
                              placeholder_text_color="#FFFFFF",
@@ -332,7 +332,7 @@ OK_button.pack(pady=20)
 
 link_label = ctk.CTkButton(root,
                            text="Обратная связь",
-                           command=visitka)
+                           command=contacts)
 link_label.pack(pady=10)
 
 langs_allowed = ["Russian", "English"]
