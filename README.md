@@ -1,4 +1,7 @@
 # Ren'Py-Easy-Quotes
+> Текущая версия 3.0
+> 
+> Current version is 3.0
 
 ![logo](https://github.com/WhenIWantedToSleep/RenPy-Easy-Quotes/blob/master/rep_bg.jpg)
 ![](https://img.shields.io/github/release-date/WhenIWantedToSleep/RenPy-Easy-Quotes)
@@ -30,6 +33,7 @@
 ## План по обновлениям (TODO)
 - [ ] Добавление нескольких файлов
 - [ ] Добавление файлов перетаскиванием в окно программы
+- [ ] Изменение файлов без необходимости переносить файл в папку с программой
 *Список может дополняться*
 
 ____
@@ -56,6 +60,8 @@ The program is designed to highlight replicas with quotation marks in scripts (.
 ## My TODO for next updates
 - [ ] Adding multiple files
 - [ ] Adding files by dragging and dropping into the program window
+- [ ] Changing files without having to move the file to the program folder
+*the list can be supplemented*
 
 ____
 
