@@ -8,6 +8,7 @@
 ![](https://img.shields.io/github/last-commit/WhenIWantedToSleep/RenPy-Easy-Quotes)
 ![](https://img.shields.io/github/license/WhenIWantedToSleep/RenPy-Easy-Quotes)
 ![](https://img.shields.io/pypi/pyversions/customtkinter)
+![](https://img.shields.io/github/followers/WhenIWantedToSleep)
 
 
 ## RU
