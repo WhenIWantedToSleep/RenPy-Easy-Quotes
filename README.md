@@ -2,6 +2,10 @@
 
 ![logo](https://github.com/WhenIWantedToSleep/RenPy-Easy-Quotes/blob/master/rep_bg.jpg)
 ![](https://img.shields.io/github/release-date/WhenIWantedToSleep/RenPy-Easy-Quotes)
+![](https://img.shields.io/github/last-commit/WhenIWantedToSleep/RenPy-Easy-Quotes)
+![](https://img.shields.io/github/license/WhenIWantedToSleep/RenPy-Easy-Quotes)
+![](https://img.shields.io/pypi/pyversions/customtkinter)
+
 
 ## RU
 ### Описание
