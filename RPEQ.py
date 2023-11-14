@@ -15,7 +15,7 @@ main_x = (screen_width/2) - (rpeq_width/2)
 main_y = (screen_height/2) - (rpeq_height/2)
 root.geometry(f"{rpeq_width}x{rpeq_height}+{int(main_x)}+{int(main_y)}")
 root.title("Ren'Py Easy Quotes by wiwts")
-root.after(201, lambda: root.iconbitmap("C:\\Programs\\Ren'Py_Easy_Quotes_3\\favicon.ico"))
+root.after(201, lambda: root.iconbitmap("favicon.ico"))
 root.resizable(False, False)
 
 # DEFINE
@@ -172,7 +172,6 @@ def visitka(): # FEEDBACK & CONTACTS
     visitka_y = (screen_height/2) - (visitka_height/2)
     visitka_window.geometry(f"{visitka_width}x{visitka_height}+{int(visitka_x)}+{int(visitka_y)}")
     visitka_window.title("Обратная связь")
-    visitka_window.after(250, lambda: root.iconbitmap("C:\\Programs\\Ren'Py_Easy_Quotes_3\\favicon.ico"))
     visitka_window.resizable(False, False)
     viz_frame = ctk.CTkFrame(visitka_window)
     viz_frame.pack(padx=30, pady=20, fill="both", expand=True)
