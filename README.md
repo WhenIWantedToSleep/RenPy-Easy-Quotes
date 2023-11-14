@@ -1,5 +1,7 @@
 # Ren'Py-Easy-Quotes
 
+![logo](https://github.com/WhenIWantedToSleep/RenPy-Easy-Quotes/blob/master/rep_bg.jpg)
+
 ## RU
 ### Описание
 Программа предназначена для того, чтобы выделять реплики кавычками в скриптах (файлы .rpy) движка для визуальных новелл *Ren'Py*. 
