@@ -22,7 +22,7 @@
 **RPEQ-lite** — консольная версия программы. Преимущества: меньший вес, программа упакована одним .exe файлом.
 
 ### Установка
-1. Скачать .zip архив
+1. Скачать .zip архив из "Releases"
 2. Распаковать
 
 ### Использование
@@ -54,7 +54,7 @@ Highlights **ONLY** replicas. The program is not intended to highlight the names
 **RPEQ-lite** — console version of the program. Advantages: less weight, the program is packed with one file (.exe).
 
 ### Installation
-1. Download .zip archive
+1. Download .zip archive from "Releases"
 2. Unpack
 
 ### Usage
