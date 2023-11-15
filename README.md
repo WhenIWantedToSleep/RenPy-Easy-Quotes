@@ -40,6 +40,7 @@
 - [ ] Добавление нескольких файлов
 - [ ] Добавление файлов перетаскиванием в окно программы
 - [ ] Изменение файлов без необходимости переносить файл в папку с программой
+
 *Список может дополняться*
 
 ____
@@ -72,6 +73,7 @@ Highlights **ONLY** replicas. The program is not intended to highlight the names
 - [ ] Adding multiple files
 - [ ] Adding files by dragging and dropping into the program window
 - [ ] Changing files without having to move the file to the program folder
+
 *the list can be supplemented*
 
 ____
