@@ -65,7 +65,7 @@ Highlights **ONLY** replicas. The program is not intended to highlight the names
 4. Run RPEQ.exe (or RPEQ-lite.exe);
 5. In the first field, you must write the name of the file (without permission);
 6. You can write character variables in the second field that are defining when creating a character in the Ren'Py script (define ***e*** = Character("Eileen", color="#FFFFFF")). If the character variables do not appear in the replicas, then you can leave this field empty;
-7. You can specify your own path for the output file. If it is not specified, the RPEQ folder will be created in the same folder where the program file is located, in which the output file will be located;
+7. You can specify your own path for the output file (the final path shouldn't contain a file with the same name and permission, otherwise it will be deleted by the program). If it is not specified, the RPEQ folder will be created in the same folder where the program file is located, in which the output file will be located;
 8. Press ENTER to start program;
 9. Done. The file is located either in the folder you specified or in the RPEQ folder.
 
